@@ -129,6 +129,13 @@ body {
   border-bottom: solid #0712FF;
 }
 
+.brand-titre {
+  color: white;
+}
+
+#yeah {
+  width: 5px !important;
+}
 
 /*
  * Placeholder dashboard ideas
