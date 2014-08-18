@@ -24,42 +24,43 @@ body {
  */
 .navbar-fixed-top {
   border: 0;
-  border-bottom: solid #FF071F;
   font-size: 20px;
   font-family: 'Play', sans-serif;
   background-color: black;
 }
 
 .navbar-brand {
+  border: 0;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 30px;
   color: #0712FF !important;
 }
+
+.title-picture {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.brand-titre {
+  color: white;
+}
+
+#Aladine {
+  margin-left: 140px;
+  color: white;
+  top: -70px;
+  font-family: 'Kaushan Script', cursive;
+}
+
 
 #menu1 {
   color: #FF071F !important;
 }
 
-#menu2 {
-  color: #0712FF !important;
-}
-
-#menu3 {
-  color: white;
-}
-
 #menu1 :hover {
   background-color: #FF071F;
   color: white;
-}
-
-#menu2 :hover {
-  background-color: #0712FF;
-  color: white;
-}
-
-#menu3 :hover {
-  background-color: white;
-  color: black;
 }
 
 
@@ -98,10 +99,13 @@ body {
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
-  color: white;
+  color: #E851FF;
   font-size: 15px;
 }
 
+.container-fluid {
+  
+}
 
 /*
  * Main content
@@ -124,18 +128,14 @@ body {
 
 .page-header {
   text-align: center;
-  font-family: 'Marvel', sans-serif;
   color: white;
+  margin-left: 155px;
   border-bottom: solid #0712FF;
+  border-top: solid #0712FF;
+  height: 50%;
+
 }
 
-.brand-titre {
-  color: white;
-}
-
-#yeah {
-  width: 5px !important;
-}
 
 /*
  * Placeholder dashboard ideas
@@ -154,4 +154,16 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+/* articles */
+
+.well-lg {
+  margin-top: 100px;
+  border: solid white;
+}
+
+.contain {
+  margin-left: 170px;
+  color: white;
 }
