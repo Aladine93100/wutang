@@ -9,6 +9,10 @@ body {
   font-family: 'Play', sans-serif;
 } 
 
+#truc {
+  font-family: 'Anton', sans-serif;
+}
+
 .navbar {
   border: 0;
   font-family: 'Audiowide', cursive;
@@ -116,7 +120,8 @@ body {
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: white;
+    background-color: black;
+    color: white;
     border-right: 1px solid #eee;
   }
 }
@@ -135,6 +140,7 @@ body {
 }
 
 .container-fluid {
+  background-color: black;
   
 }
 
