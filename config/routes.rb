@@ -1,15 +1,20 @@
 Wutang::Application.routes.draw do
-  get "humanitaire/index"
-  get "help/index"
-  get "realisations/index"
-  get "lifestyle/articles"
-  get "univers/presentation"
-  get "home/index"
+  get "welcome/sondage"
+  # get "humanitaire/index"
+  # get "help/index"
+  # get "realisations/index"
+  # get "realisations/culture"
+  # get "realisations/associations"
+  # get "realisations/webdoc"
+  # get "lifestyle/articles"
+  # get "lifestyle/humanitaire"
+  # get "univers/presentation"
+  # get "home/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#index'
+  root 'welcome#sondage'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

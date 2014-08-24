@@ -4,9 +4,14 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  background-color: black;
   font-family: 'Play', sans-serif;
+  margin:0;
+  padding:0;
+  background: url(landing.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
 } 
 
 #truc {
@@ -21,12 +26,25 @@ body {
   color: white !important;
 }
 
-. {
+.navbar-nav {
   color: black !important;
 }
 
-.active {
+.active :hover {
+  background-color: purple !important;
+}
+
+.lifestyle :hover {
+  background-color: green !important;
+}
+
+.univers :hover {
   background-color: red !important;
+}
+
+.video :hover {
+  background-color: yellow !important;
+
 }
 
 .art1 {
@@ -74,11 +92,9 @@ body {
 }
 
 .fb-like {
-  margin-top: 50px;
-  margin-left: 30px;
   background-color: white;
   padding: 20px;
-
+  margin-bottom: 20px;
 }
 
 .twitter-timeline {
@@ -96,7 +112,10 @@ body {
   color: white;
 }
 
-
+.sondage {
+  margin-left: 750px;
+  margin-top: 50px;
+}
 
 
 /*
@@ -171,6 +190,9 @@ body {
   border-top: solid #0712FF;
 }
 
+.header-lifestyle {
+  margin-left: 200px;
+}
 
 /*
  * Placeholder dashboard ideas
@@ -207,4 +229,16 @@ body {
   margin-left: 200px;
   margin-right: 50px;
   background-color: white;
+}
+
+/* Videos */
+
+.header-videos {
+  text-align: center;
+  color: white;
+  font-family: 'Play', sans-serif;
+}
+
+.media-one {
+  margin-top: 20px;
 }
