@@ -6,33 +6,40 @@
 
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
+		<div id="row1">
 		<div class="art1 col-md-4">
-			<h2>Heading</h2>
+			<h2>Mes réalisations</h2>
 			<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-		</div><!-- /.col-lg-4 -->
-		<div class="art2 col-md-4">
-			<h2>Heading</h2>
-			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			<p><a class="btn btn-default" role="button" <%= link_to "Entrer", realisations_index_path %> </a> </p>
 		</div>
+	    </div>
+	    <div id="row2">
+		<div class="art2 col-md-4">
+			<h2>Humanitaire</h2>
+			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+			<p><a class="btn btn-default" role="button" <%= link_to "Entrer", humanitaire_index_path %> </a> </p>
+		</div>
+	</div>
 		<div class="col-md-3">
 			<div class="fb-like" data-href="https://www.facebook.com/seuletravailpaie?ref=hl" data-width="30" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 		</div>
 	</div><!-- /.col-lg-4 -->
-	
-<div class="row">
-	<div class="art3 col-md-4">
-		<h2>Heading</h2>
-		<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-	</div>
 
+<div class="row">
+	<div id="row3">
+	<div class="art3 col-md-4">
+		<h2>Lifestyle</h2>
+		<p>Chris Macari a frappé fort en ce début d’année 2013. Sa dernière réalisation, le clip Zoo du rappeur Kaaris est bien partie pour marquer les esprits de manière indélébile. Ce dernier exercice vidéo synchronise parfaitement l’identité présentée par le rappeur de Sevran et la touche artistique du réalisateur antillais.</p>
+		<p><a class="btn btn-default" role="button" <%= link_to "Entrer", lifestyle_articles_path %> </a> </p>
+	</div>
+</div>
+<div id="row4">
 	<div class="art4 col-md-4">
 		<h2>Heading</h2>
 		<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 	</div>
+</div>
 	<div class="col-md-3">
 		<a class="twitter-timeline" href="https://twitter.com/_Aladine" data-widget-id="503322940016848896">Tweets de @_Aladine</a>
 	</div>

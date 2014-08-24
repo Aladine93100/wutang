@@ -17,30 +17,56 @@ body {
   color: white !important;
 }
 
-.navbar-nav {
+. {
   color: black !important;
 }
 
 .active {
-  background-color: 
+  background-color: red !important;
 }
 
 .art1 {
   background-color: green;
+  color: white;
+}
+
+#row1 :hover {
+  background-color: #FF071F;
+  color: white;
 }
 
 .art2 {
   background-color: red;
+  color: white;
+}
+
+#row2 :hover {
+  background-color: #FFDE02;
+  color: black;
 }
 
 .art3 {
   background-color: blue;
   margin-top: 20px;
+  color: white;
+}
+
+
+#row3 :hover {
+  background-color: #30DB7B;
+  color: black;
 }
 
 .art4 {
   background-color: purple;
   margin-top: 20px;
+  color: white;
+}
+
+
+#row4 :hover {
+  background-color: #396CDB;
+  color: yellow;
 }
 
 .fb-like {
@@ -54,16 +80,6 @@ body {
 .twitter-timeline {
   margin-top: 30px;
   margin-left: 50px;
-}
-
-.title-picture {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.brand-titre {
-  color: white;
 }
 
 

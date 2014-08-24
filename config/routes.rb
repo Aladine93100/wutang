@@ -1,4 +1,5 @@
 Wutang::Application.routes.draw do
+  get "humanitaire/index"
   get "help/index"
   get "realisations/index"
   get "lifestyle/articles"
